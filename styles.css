@@ -1,0 +1,89 @@
+#shape-container {
+      height: 600px;
+      width: 600px;
+      background-color: blue;
+      position: relative;
+  }
+
+  #shape-container > div {
+    position: absolute;
+}
+
+#side-panel {
+  background-color: lightgrey;
+  width: 200px;
+  height: 100%;
+  border: 15px solid green;
+  padding: 50px;
+  justify-content: right;
+  /* margin: 20px; */
+  position: fixed;
+  /* float: left; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  /* flex: 33.33%; */
+  padding: 5px;
+}
+
+/* .column {
+  float: left; 
+  flex: 33.33%;
+  padding: 5px;
+} */
+
+/* Clearfix (clear floats) */
+/* .row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+/* #shape-constructor {
+  height: 500px;
+  width: 250px;
+  background-color:black;
+  position: relative;
+  float: right;
+} */
+  
+  .square {
+    /* width: 100px;
+    height: 100px; */
+    position: absolute;
+    background-color: red;
+  }
+
+  .rectangle {
+    /* width: 100px;
+    height: 50px; */
+      position: absolute;
+      background-color: green;
+  }
+
+  .circle {
+    /* width: 100px;
+    height: 100px; */
+    background:purple;
+    border-radius: 50%
+  }
+
+  .triangle {
+    /* width: 0;
+    height: 0; */
+    border-bottom: 100px solid yellow;
+    border-right: 100px solid transparent;
+    position: absolute;
+  }
+
+
+  
+    
